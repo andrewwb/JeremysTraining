@@ -1,0 +1,10 @@
+<h1>hello world</h1>
+<button type="button" class="btn btn-success" ng-click="controller.openCreateModal()" ng-show="controller.status._id">Create Movie</button>
+<div ng-repeat="m in controller.movies">
+  <h3>{{m.title}}</h3>
+  <h3>Posted by: {{m.owner.userName}}</h3>
+  <div ng-show="controller.status._id && m.owner._id === controller.status._id">
+    <button ng-click="controller.removeMovie(m)">Delete</button>
+    <button type="button" ui-sref="update({id: m._id})">Edit</button>
+  </div>
+</div>

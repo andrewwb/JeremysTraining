@@ -1,0 +1,22 @@
+{
+  "dependencies": {},
+  "globalDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20160709055139",
+    "angular-resource": "registry:dt/angular-resource#1.5.0+20160613142217",
+    "angular-ui-bootstrap": "registry:dt/angular-ui-bootstrap#0.13.3+20160705221453",
+    "angular-ui-router": "registry:dt/angular-ui-router#1.1.5+20160707113237",
+    "body-parser": "registry:dt/body-parser#0.0.0+20160619023215",
+    "es6-shim": "registry:dt/es6-shim#0.31.2+20160602141504",
+    "express": "registry:dt/express#4.0.0+20160708185218",
+    "express-jwt": "registry:dt/express-jwt#0.0.0+20160629014920",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160715232503",
+    "jquery": "registry:dt/jquery#1.10.0+20160704162008",
+    "jsonwebtoken": "registry:dt/jsonwebtoken#0.0.0+20160720062725",
+    "mime": "registry:dt/mime#0.0.0+20160316155526",
+    "mongodb": "registry:dt/mongodb#2.1.0+20160602142941",
+    "mongoose": "registry:dt/mongoose#4.5.4+20160720124019",
+    "mongoose-promise": "registry:dt/mongoose-promise#4.5.4+20160720003345",
+    "node": "registry:dt/node#6.0.0+20160720070758",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
+  }
+}

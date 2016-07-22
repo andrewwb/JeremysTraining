@@ -1,0 +1,26 @@
+<h1>Update</h1>
+<form class="well" ng-submit="controller.updateMovie()">
+  <div>
+    <label>Title</label>
+    <input type="text" ng-model="controller.movie.title" class="form-control" />
+  </div>
+  <div>
+    <label>Director</label>
+    <input type="text" ng-model="controller.movie.director" class="form-control" />
+  </div>
+  <div>
+    <label>Year</label>
+    <input type="text" ng-model="controller.movie.year" class="form-control" />
+  </div>
+  <div>
+    <label>Rating</label>
+    <input type="text" ng-model="controller.movie.rating" class="form-control" />
+  </div>
+  <div>
+    <label>Image Url</label>
+    <input type="text" ng-model="controller.movie.imageUrl" class="form-control" />
+  </div>
+  <div style="align: center">
+    <button type="submit" class="btn btn-success">Submit</button>
+  </div>
+</form>

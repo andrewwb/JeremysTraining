@@ -1,0 +1,12 @@
+<div>
+  <div>
+    <a ui-sref="main">Home</a>
+  </div>
+  <div ng-show="!controller.status._id">
+    <a ui-sref="login">Login</a>
+    <a ui-sref="register">Register</a>
+  </div>
+  <div ng-show="controller.status._id">
+    <a ng-click="controller.logout()">Logout</a>
+  </div>
+</div>

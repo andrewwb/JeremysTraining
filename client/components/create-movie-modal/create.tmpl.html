@@ -1,0 +1,29 @@
+<div class="modal-header">
+            <h3 class="modal-title">I'm a modal!</h3>
+        </div>
+        <div class="modal-body">
+              <div>
+                <label>Title</label>
+                <input type="text" ng-model="modal.movie.title" class="form-control" />
+              </div>
+              <div>
+                <label>Director</label>
+                <input type="text" ng-model="modal.movie.director" class="form-control" />
+              </div>
+              <div>
+                <label>Year</label>
+                <input type="text" ng-model="modal.movie.year" class="form-control" />
+              </div>
+              <div>
+                <label>Rating</label>
+                <input type="text" ng-model="modal.movie.rating" class="form-control" />
+              </div>
+              <div>
+                <label>Image Url</label>
+                <input type="text" ng-model="modal.movie.imageUrl" class="form-control" />
+              </div>
+            </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="modal.ok()">OK</button>
+            <button class="btn btn-warning" type="button" ng-click="modal.cancel()">Cancel</button>
+        </div>
